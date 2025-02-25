@@ -67,3 +67,10 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*  I'll add the solution here */
+
+.modal {
+  display: flex;
+  gap: 12px;
+}
