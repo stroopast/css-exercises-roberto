@@ -80,7 +80,7 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.close-button {
+/* .close-button {
   flex: 1;
 }
 
@@ -99,4 +99,19 @@ button.cancel {
 .vertical {
   display: flex;
   gap: 100px;
+} */
+
+/*  Better solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
