@@ -20,6 +20,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
 }
 
 .card {
@@ -27,3 +28,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution added here */
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical {
+  flex: 1;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  padding: 16px;
+  width: 300px;
+}
+
